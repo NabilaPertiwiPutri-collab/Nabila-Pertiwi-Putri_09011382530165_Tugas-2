@@ -1,0 +1,29 @@
+#TUGAS 2 SISTEM OPERASI
+
+1) TUGAS PERCOBAAN 1 INFORMASI FINGER :
+nabila@nabila-VirtualBox :~$ chfn nabila
+Sandi :
+mengubah informasi pengguna dari nabila
+Masukkan nilai baru atau tekan ENTER untuk nilai bawaan 
+         Nama Lengkap : Nabila Pertiwi Putri
+         Nomor Ruangan [ruang 3] : ruang 4
+         Telepon Kantor [20070] : 200227
+         Telepon Rumah [170807] : 1708077
+nabila@nabila-VirtualBox :~$
+
+2) TUGAS PERCOBAAN 2 LOG USER AKTIF :
+nabila@nabila-VirtualBox :~$ w
+nabila@nabila-VirtualBox :~$ who
+nabila@nabila-VirtualBox :~$ whoami
+nabila
+
+3) TUGAS PERCOBAAN 3 GROUP :
+nabila@nabila-VirtualBox :~$ cat /etc/group
+*root:x:0::*
+
+Analisis root:x:0:: :
+- root : nama grup
+- x : bagian password grup (biasanya tidak menyimpan password langsung disini)
+- 0 : Group ID (GID)
+- Bagian setelah 0 : daftar anggota grup, jika ada
+Jadi, grup root memiliki GID 0. Grup ini merupakan grup khusus dengan hak ases tertinggi pada Sistem Linux.
