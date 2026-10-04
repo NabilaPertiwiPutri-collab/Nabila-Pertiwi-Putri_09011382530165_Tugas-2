@@ -1,4 +1,4 @@
-#TUGAS 2 SISTEM OPERASI
+#TUGAS 2 SISTEM OPERASI 
 
 1) TUGAS PERCOBAAN 1 INFORMASI FINGER :
 nabila@nabila-VirtualBox :~$ chfn nabila
